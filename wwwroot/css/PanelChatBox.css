@@ -1,0 +1,22 @@
+﻿
+#chatMessage {
+    list-style-type: none;
+    text-align: left;
+    height: 400px;
+    overflow-y: scroll;
+    margin-bottom: 0;
+}
+
+    #chatMessage li .name {
+        font-weight: bold;
+        margin-right: 5px;
+    }
+
+    #chatMessage li .time {
+        color: #999;
+    }
+
+    #chatMessage div.message {
+        padding-bottom: 15px;
+    }
+

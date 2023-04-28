@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "پنل پشتیبانی";
+}
+
+<h4>Online Chat answer</h4>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <ul id="chatMessage" class="card-body">
+                            @*Messages*@
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <form id="answerForm" class="mt-2 row">
+                        <input id="answerText" type="text" placeholder="write your answer here" class="col-10" />
+                        <button type="submit" class="btn btn-success col-2">send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div id="roomList" class="list-group">
+                @*Rooms*@
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+@section Scripts{
+
+    <script src="~/js/SupportSignalRService.js"></script>
+}
+
+

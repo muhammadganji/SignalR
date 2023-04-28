@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h4 class="display-5"> caht signalR  </h4>
+
+    <div class="card" id="ChatBox">
+        <div class="card-header">
+            <b>Online chat</b>
+        </div>
+        <div id="MessagePanel">
+            <ul id="Messages">
+                
+            </ul>
+            <div id="SendNewMessage">
+                <form id="NewMessageForm" class="row">
+                    <div class="col-9">
+                        <input type="text" id="MessageInput" placeholder="write your message here" class="form-control" autocomplete="off" />
+                    </div>
+                    <button type="submit" class="btn btn-success col-3">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</div>
